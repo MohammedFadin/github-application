@@ -3,15 +3,15 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:47407",
-      "sslPort": 8080
+      "applicationUrl": "http://localhost:8080",
+      "sslPort": 0
     }
   },
   "profiles": {
     "Azure_Github_Demo": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7172;http://localhost:5166",
+      "applicationUrl": "https://localhost:8080",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
